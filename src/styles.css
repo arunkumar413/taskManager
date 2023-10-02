@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.task-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.high {
+  color: crimson;
+}
+
+.low {
+  color: green;
+}
+
+.medium {
+  color: blue;
+}
+
+.urgent {
+  color: red;
+}
+
+.task-container:hover {
+  background-color: whitesmoke;
+}
